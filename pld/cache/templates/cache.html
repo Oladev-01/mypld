@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+{% block body %}
+        <h1>Current cache:</h1>
+        <ul>{% for key, value in cache_data.items() %}
+            <li>{{ key }}: <b>{{ value }}</b></li>
+            {% endfor %}
+        </ul>
+        
+        {% if fifo %}
+        <p>DISCARD: <b>{{ fifo }}</b></p>
+        {% endif %}
+        <!--form to update the cache data-->
+        <h2>Update Cache Data</h2>
+        <form action="/cache" method="POST">
+            <label for="key">Key:</label>
+            <input type="text" id="key" name="key" required><br><br>
+            <label for="value">Value:</label>
+            <input type="text" id="value" name="value" required><br><br>
+            <button type="submit">Add to cache</button>
+        </form>
+{% endblock %}
