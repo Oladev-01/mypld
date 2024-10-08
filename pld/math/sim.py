@@ -71,9 +71,9 @@ def sim():
             first_var /= delta
             second_var /= delta
             third_var /= delta
-            print(f"The value of {getVar[0]} is {first_var}")
-            print(f"The value of {getVar[1]} is {second_var}")
-            print(f"The value of {getVar[2]} is {third_var}")
+            print(f"The value of {getVar[0]} is {first_var:.3f}")
+            print(f"The value of {getVar[1]} is {second_var:.3f}")
+            print(f"The value of {getVar[2]} is {third_var:.3f}")
         get_cont = input("Do you wish to continue <Yes/No>: ")
         get_cont.lower()
 

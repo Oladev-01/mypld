@@ -6,7 +6,10 @@ const testAsync = async () => {
     console.log(data.id);
     newResponse = await fetch(`${endPoint}/2`);
     secData = await newResponse.json();
-    console.log(secData.id);
+    console.log(secData.invalid);
+    another = await fetch(`${endPoint}/3`)
+    third_data = await another.json()
+    console.log(third_data.id)
 }
 
 testAsync();
