@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mypld/static/css/main.ca6038f7.css",
+    "main.js": "/mypld/static/js/main.0aa36aa0.js",
+    "index.html": "/mypld/index.html",
+    "main.ca6038f7.css.map": "/mypld/static/css/main.ca6038f7.css.map",
+    "main.0aa36aa0.js.map": "/mypld/static/js/main.0aa36aa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca6038f7.css",
+    "static/js/main.0aa36aa0.js"
+  ]
+}
