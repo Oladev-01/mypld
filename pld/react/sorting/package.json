@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "sorting",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Oladev-01.github.io/mypld",
+  "homepage": "https://Oladev-01.github.io/mypld/sorting",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
